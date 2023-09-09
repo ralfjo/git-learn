@@ -29,7 +29,7 @@ git config --global alias.showmebranches branch
 git showmebranches
 ```
 
-### 인자가 있는 alias 명령
+### Argument command alias
 ```
 [alias]
     cm = commit -m
