@@ -57,3 +57,21 @@ git branch -D navbar
 git branch
 git pull origin main
 ```
+
+conflict
+```
+git fetch origin
+git switch new-heading
+git checkout -b new-heading origin/new-heading
+git merge main
+git switch main
+git pull origin main
+git switch new-heading
+git merge main
+git add index.html
+git commit -m "resolve confict"
+git status
+git switch main
+git merge --no-ff new-heading
+git push origin main
+```
