@@ -32,10 +32,22 @@ f47dfcd (HEAD -> main) master work 4
 git checkout apple
 ```
 
-# branch 에서
+# branch merge 에서
 ```
 base (공통 출발점)
 merge commit
 # merge를 위해서 main으로 checkout
 git merge apple
+
+git status # 충돌 상태 파악
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   work.txt
+
+# 편집기로 충돌 내용 수정
+# 수정 후 저장, 충돌 수정을 git에 알림
+git add work.txt
+git status
+
+git commit
 ```
