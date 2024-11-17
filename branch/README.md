@@ -36,4 +36,6 @@ git checkout apple
 ```
 base (공통 출발점)
 merge commit
+# merge를 위해서 main으로 checkout
+git merge apple
 ```
