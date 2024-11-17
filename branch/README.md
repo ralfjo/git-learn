@@ -28,5 +28,11 @@ git commit -am "master work 4"
 f47dfcd (HEAD -> main) master work 4
 2f7ff89 (ms, google, apple) work 3
 
+git checkout apple
+```
 
+# branch 에서
+```
+base (공통 출발점)
+merge commit
 ```
