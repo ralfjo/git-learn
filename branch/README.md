@@ -34,7 +34,7 @@ git checkout apple
 
 # branch merge 에서
 ```
-base (공통 출발점)
+base (branch에서 쪼개질때 공통 출발점)
 merge commit
 # merge를 위해서 main으로 checkout
 git merge apple
@@ -50,4 +50,9 @@ git add work.txt
 git status
 
 git commit
+```
+
+# 2 way merge, 3 way merge
+```
+base와 branch 2개를 가지고 비교
 ```
