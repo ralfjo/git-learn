@@ -5,6 +5,11 @@
 # 특정 체크포인트에 변화내용만을 가져와서 적용
 # 가져오고 싶은 브랜치로 이동
 git cherry-pick 78150ab
+
+# conflict 시 3way merge를 이해하는 것이 중요
+# conflict를 해결하고
+git cherry-pick --continue
+# (--abort는 변경 내용 취소)
 ```
 
 
